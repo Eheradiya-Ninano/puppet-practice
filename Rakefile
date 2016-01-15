@@ -1,4 +1,4 @@
-SSH = 'ssh -A -i ~/git/bitfield/bitfield.pem -l ubuntu'
+SSH = 'ssh -i ~/DaouCloud/keyforwkjeon.pem ubuntu@27.102.82.3'
 #REPO = "https://github.com/Eheradiya-Ninano/puppet-practice.git"
 
 desc "Run puppet on ENV['CLIENT']"
