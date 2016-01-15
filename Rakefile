@@ -1,4 +1,4 @@
-SSH = 'ssh -i ~/DaouCloud/keyforwkjeon.pem ubuntu@27.102.82.146'
+SSH = 'ssh -A -i ~/DaouCloud/keyforwkjeon.pem -l ubuntu'
 #REPO = "https://github.com/Eheradiya-Ninano/puppet-practice.git"
 
 desc "Run puppet on ENV['CLIENT']"
